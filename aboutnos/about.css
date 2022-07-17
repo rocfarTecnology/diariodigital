@@ -1,0 +1,54 @@
+body {
+  background-color: #FFFDF7;
+}
+
+#header {
+  height: 300px;
+}
+#header .logo-navbar {
+  height: 220px;
+}
+#header .logo-navbar .rowheader .contein-logo {
+  height: 240px;
+}
+#header .logo-navbar .rowheader .contein-logo .logotipo {
+  height: 230px;
+  width: 50%;
+}
+#header .logo-navbar .rowheader .nav-menu {
+  height: 60px;
+}
+#header .logo-navbar .rowheader .nav-menu .navbar {
+  background-color: #F0701F;
+}
+#header .logo-navbar .rowheader .nav-menu .navbar .conteiner-fluid .HelveciaMAs {
+  color: #000009;
+}
+#header .logo-navbar .rowheader .nav-menu .navbar .conteiner-fluid #navbarNav .navbar-nav .nav-item a {
+  color: #000009;
+}
+
+#mainabout .usabout {
+  margin-top: 150px;
+}
+#mainabout .usabout .rowuno .coluno {
+  background-color: rgba(255, 159, 100, 0.8862745098);
+}
+#mainabout .usabout .rowuno .coldos .contein_pabout .contein_title .title_about {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+#mainabout .usabout .rowuno .coldos .contein_pabout .contein_title .title_about .autor {
+  font-weight: 900;
+  font-size: 1rem;
+}
+#mainabout .usabout .rowuno .coldos .contein_pabout .contein_title .txt {
+  margin-bottom: 70px;
+}
+#mainabout .usabout .rowuno .coldos .contein_pabout .alert {
+  background-color: rgba(238, 238, 238, 0.8117647059);
+  margin-bottom: 100px;
+}
+#mainabout .usabout .rowuno .coltres {
+  background-color: rgba(255, 159, 100, 0.8862745098);
+}/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,143 @@
+$primaricolor: #D0021C;
+$secundaricolor: #F0701F;
+$terciaricolor: #8C0007;
+$fourcolor: #FFFDF7;
+$black: #000009;
+
+
+#header{
+    margin-bottom: 200px;
+        height: 300px;
+        background-color: #FFFDF7;
+        .logo-navbar{
+            height: 220px;
+            .rowheader{
+                .contein-logo{
+                    height: 240px;
+                    .logotipo{
+                      height: 230px;
+                      width: 50%;
+                    }
+                }
+                .nav-menu{
+                    height: 60px;
+                   
+                    .navbar{
+                        background-color: $secundaricolor;
+                        .conteiner-fluid{
+                            .HelveciaMAs{
+                                color: #000009;
+                            };
+                            #navbarNav{
+                                .navbar-nav{
+                                    .nav-item{
+                                        a{
+                                            color: #000009;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+};
+
+main{
+    .contein_prin{
+        margin-top: 50px;
+        margin-bottom: 75px;
+        // #coluno{
+
+        // };
+        // columna dos central
+        #coldos{
+                .contein_article{
+                    .row_article{
+                        .contein_article{
+                            // modificaciones al header del articulo
+                            .row_header_article{
+                                    .col_header_art{
+                                        border-bottom: $terciaricolor solid 9px;
+                                        margin-bottom: 50px;
+                                        .avatar{
+                                            height: 80px;
+                                            width: 80px;
+                                            border-radius: 100%;
+                                        }
+                                        .autor{
+                                            position: relative;
+                                            left: 50px;
+                                            .by{
+                                                font-weight: 600
+                                            }
+                                        }
+                                    }
+                            };
+                            // cuerpo article
+                            .cuerpo_article{
+                                #coltitulo{
+                                    .titleart{
+                                        margin-bottom: 50px;
+                                    }
+                                };
+                                // primer parrafo
+                                #colprimerp{
+                                    text-align: left;
+                                };
+                                // primer imagen
+                                #colimguno{
+                                    height: 350px;
+                                    border-bottom: #000009 solid 2px;
+                                    margin-bottom: 40px;;
+                                    .primerimg{
+                                        height: 75%;
+                                        width: 75%;
+                                        
+                                    }
+                                };
+                                // subtitulo
+                                #colsubtitleart{
+                                    margin-bottom: 30px;
+                                    .subtitleart{
+                                        font-size: 1.5rem;
+                                    }
+                                };
+                                // segundo parrafo
+                                #colsegundop{
+                                    .segundop{
+                                        text-align: left; 
+                                    }
+                                }
+
+                                // segunda imagen
+                                #colimgdos{
+                                    height: auto;
+                                    border-bottom: $terciaricolor solid 7px;
+                                    .segundaimg{
+                                        height: 75%;
+                                        width: 75%;
+                                    }
+                                }
+                            }
+
+                        }; 
+
+                    
+                    }
+                }
+        };
+        // #coltres{
+
+        // }
+    }
+};
+
+
+
+
+
+
+
+

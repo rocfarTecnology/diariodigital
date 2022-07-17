@@ -1,0 +1,26 @@
+#header {
+  height: 300px;
+  background-color: #FFFDF7;
+}
+#header .logo-navbar {
+  height: 220px;
+}
+#header .logo-navbar .rowheader .contein-logo {
+  height: 240px;
+}
+#header .logo-navbar .rowheader .contein-logo .logotipo {
+  height: 230px;
+  width: 50%;
+}
+#header .logo-navbar .rowheader .nav-menu {
+  height: 60px;
+}
+#header .logo-navbar .rowheader .nav-menu .navbar {
+  background-color: #F0701F;
+}
+#header .logo-navbar .rowheader .nav-menu .navbar .conteiner-fluid .HelveciaMAs {
+  color: #000009;
+}
+#header .logo-navbar .rowheader .nav-menu .navbar .conteiner-fluid #navbarNav .navbar-nav .nav-item a {
+  color: #000009;
+}/*# sourceMappingURL=regionales.css.map */
