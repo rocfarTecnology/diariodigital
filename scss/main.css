@@ -114,4 +114,14 @@ body {
 }
 #welcome .rowwelcome .colunowelcome .conteininf .textwelcome {
   color: #F0701F;
+}
+
+.articuloimg .rowimg {
+  background-color: #8C0007;
+  border-bottom: #000009 3px solid;
+  height: 600px;
+}
+.articuloimg .rowimg .colimg .imgprinc {
+  height: 50%;
+  border: #FFFDF7 solid 2px;
 }/*# sourceMappingURL=main.css.map */
