@@ -55,81 +55,8 @@ main{
         // };
         // columna dos central
         #coldos{
-                .contein_article{
-                    .row_article{
-                        .contein_article{
-                            // modificaciones al header del articulo
-                            .row_header_article{
-                                    .col_header_art{
-                                        border-bottom: $terciaricolor solid 9px;
-                                        margin-bottom: 50px;
-                                        .avatar{
-                                            height: 80px;
-                                            width: 80px;
-                                            border-radius: 100%;
-                                        }
-                                        .autor{
-                                            position: relative;
-                                            left: 50px;
-                                            .by{
-                                                font-weight: 600
-                                            }
-                                        }
-                                    }
-                            };
-                            // cuerpo article
-                            .cuerpo_article{
-                                #coltitulo{
-                                    .titleart{
-                                        margin-bottom: 50px;
-                                    }
-                                };
-                                // primer parrafo
-                                #colprimerp{
-                                    text-align: left;
-                                };
-                                // primer imagen
-                                #colimguno{
-                                    height: 350px;
-                                    border-bottom: #000009 solid 2px;
-                                    margin-bottom: 40px;;
-                                    .primerimg{
-                                        height: 75%;
-                                        width: 75%;
-                                        
-                                    }
-                                };
-                                // subtitulo
-                                #colsubtitleart{
-                                    margin-bottom: 30px;
-                                    .subtitleart{
-                                        font-size: 1.5rem;
-                                    }
-                                };
-                                // segundo parrafo
-                                #colsegundop{
-                                    .segundop{
-                                        text-align: left; 
-                                    }
-                                }
-
-                                // segunda imagen
-                                #colimgdos{
-                                    height: auto;
-                                    border-bottom: $terciaricolor solid 7px;
-                                    .segundaimg{
-                                        height: 75%;
-                                        width: 75%;
-                                    }
-                                }
-                            }
-
-                        }; 
-
-                    
-                    }
-                }
-        };
+                @include configsoloarticle;
+             }
         // #coltres{
 
         // }

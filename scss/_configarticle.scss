@@ -1,15 +1,14 @@
-#coldos{
-    .contein_article{
-        .row_article{
+
+        @mixin configsoloarticle{
             .contein_article{
                 // modificaciones al header del articulo
                 .row_header_article{
                         .col_header_art{
                             border-bottom: $terciaricolor solid 9px;
                             margin-bottom: 50px;
-                            .avatar{
-                                height: 80px;
-                                width: 80px;
+                            .avatar img{
+                                height: 40px;
+                                width: 40px;
                                 border-radius: 100%;
                             }
                             .autor{
@@ -72,10 +71,5 @@
 
         
         }
-    }
-};
-.avatar{
-    width: 80px;
-    height: 80px;
-};
-
+;
+        
