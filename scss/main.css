@@ -114,6 +114,7 @@ body {
   width: 50%;
 }
 #header .logo-navbar .rowheader .nav-menu {
+  z-index: 1000;
   height: 60px;
   width: 100%;
 }
