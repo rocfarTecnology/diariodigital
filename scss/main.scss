@@ -11,11 +11,9 @@ body{
    background-color: $gris;
 }
 #header{
-    background-image:
-     url("../imgindex/verde.jpeg");
-     background-repeat: no-repeat;
-    // background: rgb(255,255,255);
-    // background: linear-gradient(148deg, rgba(255,255,255,1) 0%, rgba(236,165,120,1) 100%);
+
+    background: rgb(255,255,255);
+    background: linear-gradient(148deg, rgba(255,255,255,1) 0%, rgba(236,165,120,1) 100%);
     height: 285px;
         .logo-navbar{
             height: 220px;
