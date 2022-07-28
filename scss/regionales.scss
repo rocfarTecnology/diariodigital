@@ -1,16 +1,13 @@
-$primaricolor: #D0021C;
-$secundaricolor: #F0701F;
-$terciaricolor: #8C0007;
-$fourcolor: #FFFDF7;
-$black: #000009;
+@import "_estilos.scss";
+@import "_estilosletras.scss";
+@import "_colors.scss";
+@import "_bg.scss";
 
-
-@import "_configarticle.scss";
 
 #header{
-    margin-bottom: 200px;
         height: 300px;
-        background-color: #FFFDF7;
+        background: rgb(255,255,255);
+        background: linear-gradient(148deg, rgba(255,255,255,1) 0%, rgba(236,165,120,1) 100%);
         .logo-navbar{
             height: 220px;
             .rowheader{
@@ -25,7 +22,7 @@ $black: #000009;
                     height: 60px;
                    
                     .navbar{
-                        background-color: $secundaricolor;
+                       
                         .conteiner-fluid{
                             .HelveciaMAs{
                                 color: #000009;
@@ -45,28 +42,3 @@ $black: #000009;
             }
         }
 };
-
-main{
-    .contein_prin{
-        margin-top: 50px;
-        margin-bottom: 75px;
-        // #coluno{
-
-        // };
-        // columna dos central
-        #coldos{
-                @include configsoloarticle;
-             }
-        // #coltres{
-
-        // }
-    }
-};
-
-
-
-
-
-
-
-

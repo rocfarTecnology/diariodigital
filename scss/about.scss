@@ -1,18 +1,15 @@
-$primaricolor: #D0021C;
-$secundaricolor: #F0701F;
-$terciaricolor: #8C0007;
-$fourcolor: #FFFDF7;
-$black: #000009;
-$gris: #eeeeeecf;
-$secunmatizado: #ff9f64e2;
+@import "_estilos.scss";
+@import "_estilosletras.scss";
+@import "_colors.scss";
+@import "_bg.scss";
 
 
-body{
-    background-color: $fourcolor;
-};
+
 // Header
 #header{
-        height: 300px;
+        height: 285px;
+        background: rgb(255,255,255);
+        background: linear-gradient(148deg, rgba(255,255,255,1) 0%, rgba(236,165,120,1) 100%);
         .logo-navbar{
             height: 220px;
             .rowheader{
@@ -27,7 +24,6 @@ body{
                     height: 60px;
                    
                     .navbar{
-                        background-color: $secundaricolor;
                         .conteiner-fluid{
                             .HelveciaMAs{
                                 color: #000009;
@@ -54,9 +50,9 @@ body{
     .usabout{
         margin-top: 150px;
         .rowuno{
-            .coluno{
-                background-color: $secunmatizado
-            };
+            // .coluno{
+              
+            // };
             .coldos{
                 .contein_pabout{
                     .contein_title{
@@ -83,9 +79,9 @@ body{
                     }
                 }
             };
-            .coltres{
-                background-color: $secunmatizado
-            };
+            // .coltres{
+                
+            // };
         }
     }
 };
