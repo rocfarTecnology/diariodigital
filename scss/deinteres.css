@@ -51,6 +51,70 @@
   background-color: rgb(240, 112, 31) linear-gradient(90deg, rgb(240, 112, 31) 0%, rgb(231, 79, 30) 30%, rgb(226, 63, 30) 45%, rgb(208, 2, 28) 100%);
 }
 
+.cfecha {
+  height: 50px;
+}
+
+.fecha {
+  text-align: end;
+  font-size: 16px;
+}
+
+.imgavatar {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+.byavatar {
+  height: 100px;
+  border-bottom: solid 7px #8C0007;
+}
+
+.nameautor {
+  font-size: 16px;
+  position: absolute;
+  left: 100px;
+}
+
+.titleart {
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: #777777;
+  font-size: 20px;
+}
+
+.tys {
+  margin-bottom: 30px;
+}
+
+.gris {
+  color: #777777;
+}
+
+.subtitle2r {
+  text-align: center;
+  border-bottom: solid 1px;
+  font-size: 25px;
+  color: #8C0007;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.conteinimg {
+  padding-bottom: 30px;
+  border-bottom: solid 1px;
+  margin-bottom: 5px;
+}
+
+.creditofoto {
+  font-size: 12px;
+  color: #777777;
+}
+
 #header {
   height: 285px;
   background: rgb(255, 255, 255);
