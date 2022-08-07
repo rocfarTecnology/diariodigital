@@ -125,6 +125,17 @@
   color: #bdb8b8;
 }
 
+.btn-wsp {
+  background-color: #128C7e;
+  color: #ffffff;
+  font-size: 12px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 180px;
+  height: 40px;
+  cursor: pointer;
+}
+
 .btn-ter {
   color: #fff;
   font-size: 20px;

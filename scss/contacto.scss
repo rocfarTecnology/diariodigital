@@ -52,4 +52,15 @@ $fondobg : rgb(240,112,31) linear-gradient(90deg, rgba(240,112,31,1) 0%, rgba(23
 
 #flecha{
     color: $secundaricolor;
-}
+};
+
+.btn-wsp{
+    background-color: #128C7e;
+    color: #ffffff;
+    font-size: 12px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+};
