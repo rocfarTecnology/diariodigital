@@ -54,17 +54,7 @@
         </div>
       </div>
     </header>
-    <!-- ventana emergebnte -->
-    <div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasLabel">CONTACTO</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-      NOTA: esta pagina aun no cuenta con visualizaciones, esta en proceso de creacion.. 
-      cierre esta pestaña y acceda a la vista momentanea. Gracias
-      </div>
-    </div>
+
 
 
       <!-- carrousel bienvenida -->
@@ -113,31 +103,35 @@
           <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
             <div class="row">
               <div class="col-12">
-                <h4 class="pregform">
-                  ¿Crees que helvecia ya deberia ser ciudad?
-                </h4>
+                
+                <form class="mb-5" action="resultado.html" method="POST">
+                  <!-- encuesta -->
+                  <div class="row">
+                    <div class="col-12">
+                      <label><h3>¿Crees que Helvecia deberia ser ciudad?</h3></label>
+
+                    </div>
+                    <div class="col-12">
+                      <label for="Si"><input type="radio" name="encuesta" value="Si">Si</label>
+
+                    </div>
+                    <div class="col-12">
+                      <label for="No"><input type="radio" name="encuesta" value="No">No</label>
+
+                    </div>
+                    <div class="col-12">
+                      <label  for="Enviar"><input class="btn-ter" type="submit" value="Enviar"></label>
+
+                    </div>
+                  </div>
+              </form>
+
               </div>
-              <div class="col-12">
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                  <label class="form-check-label" for="flexRadioDefault1">
-                    SI
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                  <label class="form-check-label" for="flexRadioDefault2">
-                    NO
-                  </label>
-                </div>
-              </div>
-            </div>
-          </div>
     
               </div>
             </div>
-            
-            
+        </div>     
+      </div>   
       
 
 
@@ -200,9 +194,7 @@
                 <!-- row que contiene los banners -->
               <div class="row row_banner ">
 <!-- baner uno -->
-                <div class="col-12 colb1 mb-5">
-                      <img class="img-fluid" src="./imgbanners/banersimpacto.jpeg" alt="impacto">
-                </div>
+              
 <!-- banner dos -->
                 <div class="col-12 colb1 mt-5">
                   <img class="img-fluid" src="./imgbanners/banersimpacto.jpeg" alt="impacto">
@@ -220,6 +212,8 @@
 
         </div>
     </section>
+
+
 
 
 

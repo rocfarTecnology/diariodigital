@@ -44,7 +44,7 @@
 }
 
 .bg {
-  background-color: #777777;
+  background-color: #bdb8b8;
 }
 
 .bgrad {
@@ -76,4 +76,8 @@
 }
 #header .logo-navbar .rowheader .nav-menu .navbar .conteiner-fluid #navbarNav .navbar-nav .nav-item a {
   color: #000009;
+}
+
+#flecha {
+  color: #F0701F;
 }/*# sourceMappingURL=contacto.css.map */

@@ -44,11 +44,149 @@
 }
 
 .bg {
-  background-color: #777777;
+  background-color: #bdb8b8;
 }
 
 .bgrad {
   background-color: rgb(240, 112, 31) linear-gradient(90deg, rgb(240, 112, 31) 0%, rgb(231, 79, 30) 30%, rgb(226, 63, 30) 45%, rgb(208, 2, 28) 100%);
+}
+
+.contarticle {
+  margin-top: 50px;
+  background-color: #ffffff;
+  margin-left: 50px;
+}
+
+.headerarticle {
+  height: 310px;
+}
+
+.cfecha {
+  height: 50px;
+}
+
+.fecha {
+  text-align: end;
+  font-size: 16px;
+}
+
+.imgavatar {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+.byavatar {
+  height: 100px;
+  border-bottom: solid 7px #8C0007;
+}
+
+.nameautor {
+  font-size: 16px;
+  position: absolute;
+  left: 100px;
+}
+
+.titleart {
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: #bdb8b8;
+  font-size: 20px;
+}
+
+.tys {
+  margin-bottom: 30px;
+}
+
+.gris {
+  color: #bdb8b8;
+}
+
+.subtitle2r {
+  text-align: center;
+  border-bottom: solid 1px;
+  font-size: 25px;
+  color: #8C0007;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.conteinimg {
+  padding-bottom: 30px;
+  border-bottom: solid 1px;
+  margin-bottom: 5px;
+}
+
+.creditofoto {
+  font-size: 12px;
+  color: #bdb8b8;
+}
+
+.btn-ter {
+  color: #fff;
+  font-size: 20px;
+  background-color: #8C0007;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 130px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.btn-gris {
+  color: #000000;
+  cursor: pointer;
+  background-color: #838383;
+  font-size: 20px;
+  border: solid 2px #fff;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+}
+
+.btn-small {
+  color: #D0021C;
+  cursor: pointer;
+  background-color: #838383;
+  border-radius: 5px;
+  border: solid 1px #000000;
+  font-size: 16px;
+  width: 100px;
+  height: 40px;
+}
+
+.btn-medium {
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #F0701F;
+  font-size: 24px;
+  border: solid 2px #000000;
+  border-radius: 5px;
+  width: 160px;
+  height: 40px;
+}
+
+.btn-50 {
+  width: 130px;
+  height: 40px;
+  border-radius: 50px;
+  border: solid #fff 1px;
+  background-color: #F0701F;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.btn-send {
+  color: #fff;
+  background-color: #838383;
+  border-radius: 7px;
+  border: solid 1px #000000;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
 }
 
 #header {

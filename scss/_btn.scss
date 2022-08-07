@@ -1,7 +1,9 @@
-.btn-orange{
+@import "_colors.scss";
+
+.btn-ter{
     color: #fff;
     font-size: 20px;
-    background-color: $secundaricolor;
+    background-color: $terciaricolor;
     border: 1px solid #000000;
     border-radius: 5px;
     width: 130px;
