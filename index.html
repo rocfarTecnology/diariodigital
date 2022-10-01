@@ -15,11 +15,11 @@
       <div class="container-fluid logo-navbar">
         <!-- inicio sistema row de boostrap para el header -->
         <div class="row rowheader">
-          <!-- col correspondiente a imagen logo -->
-            <div class="col-12 contein-logo">
-                <img src="./imgindex/h+u.gif" alt="Helvecia+" class="logotipo img-fluid">
-                
-              </div>
+          <div class="col-12 contein-logo ">
+              <img src="../imgindex/h+u.gif" alt="Helvecia+" class="logotipo ">
+              
+          </div>
+            
             <!-- col corresponde a navbar -->
             <div class="col-12 nav-menu bp">
               <nav class="navbar navbar-expand-lg bp">
@@ -104,7 +104,7 @@
             <div class="row">
               <div class="col-12">
                 
-                <form class="mb-5" action="resultado.html" method="POST">
+                <form class="mb-5" action="index.php" name="resultado" method="POST">
                   <!-- encuesta -->
                   <div class="row">
                     <div class="col-12">
@@ -112,11 +112,12 @@
 
                     </div>
                     <div class="col-12">
-                      <label for="Si"><input type="radio" name="encuesta" value="Si">Si</label>
+                      <label for="Si">
+                        <input type="radio" name="resultado" value="Si">Si</label>
 
                     </div>
                     <div class="col-12">
-                      <label for="No"><input type="radio" name="encuesta" value="No">No</label>
+                      <label for="No"><input type="radio" name="resultado" value="No">No</label>
 
                     </div>
                     <div class="col-12">
@@ -141,7 +142,7 @@
 
     <div class="container-fluid cuerpowelcome p-5 welcome">
       <div class="row prwelcome">
-        <div class="prcolwel col-12 col-md-7 d-flex justify-content-center align-items-center">
+          <div class="prcolwel col-12 col-md-7 d-flex justify-content-center align-items-center">
           
               <div class="card" style="width: 32rem;">
                 <div class="card-body">
@@ -152,9 +153,21 @@
             </div>
           </div>
         
-        <div class="col-12 col-md-5">
-          
-        </div>
+          <div class="col-12 col-md-5  reg1 d-flex justify-content-center align-items-center mt-5">
+              <div class="register reg2">
+                  <div class="container-fluid reg3">
+                    <div class="row reg4">
+                      <div class="col-12 reg5">
+                        <button class="registro ">
+                          <a class="btn" href="./register/registrarme.html">REGISTRARME</a>
+                         
+                        </button>
+                      
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
       </div>
     </div>
 
@@ -198,6 +211,58 @@
 <!-- banner dos -->
                 <div class="col-12 colb1 mt-5">
                   <img class="img-fluid" src="./imgbanners/bannerRinconDeLuz.png" alt="impacto">
+
+                </div>
+
+              </div>
+
+
+          </div>
+
+
+
+
+
+        </div>
+    </section>
+
+
+    <section class="container-fluid c_art mb-3 mt-3 bg">
+      <!-- PRIMER ROW -->
+        <div class="row row_c_art">
+            <!-- PRIMER PUBLICACION MINI -->
+          <div class="col-12 col-md-4 d-flex flex-row justify-content-center align-items-center">
+            <div class="card mb-3" style="width: 18rem;">
+              <img src="./imgdeinteres/article2imgdeinteres/imgtelam.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Disponer de un medio ambiente sano fue declarado como un derecho humano universal</h5>
+                <p class="card-text">La Asamblea General de la Organización de las Naciones Unidas (ONU) aprobó la resolución que especifica que "todos los Estados tienen la obligación de respetar, proteger y promover los derechos humanos, incluido este nuevo derecho".</p>
+                <a href="" class="btn btn-primary">leer más</a>
+              </div>
+            </div>
+          </div>
+
+            <!-- SEGUNDA PUBLI MINI  -->
+          <div class="col-12 col-md-4 d-flex flex-row justify-content-center align-items-center">
+            <div class="card mb-3" style="width: 18rem;">
+              <img src="./imgdeinteres/article2imgdeinteres/Mejorar_postura_columna.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Cuarentena y trabajo: cómo mejorar la postura en la era digital</h5>
+                <p class="card-text">La columna es muy importante con respecto a nuestra salud general, ya que afecta todo nuestro organismo; las técnicas ayurvédicas pueden solucionar problemas como dolor de espalda, de cuello, etc.</p>
+                <a href="https://noticiaspositivas.org/postura-cuarentena-y-trabajo-como-mejorarla-en-la-era-digital/" class="btn btn-primary">leer más</a>
+              </div>
+            </div>
+          </div>
+
+            <!-- banner -->
+          <div class="col-12 col-md-4 d-flex flex-column justify-content-around align-items-center">
+                <!-- row que contiene los banners -->
+              <div class="row row_banner ">
+<!-- baner uno -->
+              
+<!-- banner dos -->
+                <div class="col-12 colb1 mt-5">
+                  <img class="img-fluid" src="./imgbanners/bannerRinconDeLuz.png" alt="bannerRinconDeLuz">
 
                 </div>
 

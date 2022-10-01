@@ -66,6 +66,19 @@
     cursor: pointer;
 }
 
+
+
+.btn-pri{
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: $primaricolor;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+
 .btn-send{
     color: #fff;
     background-color: #838383;
@@ -74,4 +87,16 @@
     width: 100px;
     height: 30px;
     cursor: pointer;
+}
+
+
+.btn-registro{
+    color: #fff;
+    background-color: #838383;
+    border-radius: 7px;
+    border: solid 1px #000000;
+    width: 350px;
+    height: 60px;
+    cursor: pointer;
+    text-decoration: none;
 }

@@ -12,7 +12,7 @@
   <body>
 
 
-
+<!-- header start -->
     <header id="header">
       <div class="container-fluid logo-navbar">
         <div class="row rowheader">
@@ -52,6 +52,7 @@
         </div>
       </div>
     </header>
+    <!-- header end -->
 <!-- main de contact -->
     <main>
 
@@ -64,6 +65,43 @@
           <p class="card-text"> contacto@helveciamas.com</p>
         </div>
       </div>
+      <!-- start form -->
+      <div class="container-fluid conteinform">
+          <div class="row rowform">
+            <div class="col-2">
+
+            </div>
+            <div class="col-8 d-flex justify-content-center align-items-center">
+                  <div class="form">
+                    <form action="formulario.php" method="POST">
+                      <h3 class="titleform">ENVIE SU CONSULTA</h3>
+                      <!-- nombre -->
+                      <p class="textname">Nombre</p>
+                      <label for="nombre"></label>
+                      <input type="text" name="nombre" placeholder="nombre" required>
+                      
+                      <!-- email -->
+                      <p class="textemail mt-2">Email</p>
+                      <label for="email"></label>
+                      <input type="text" name="email" placeholder="ejm@ejemplo.com" required>
+                   
+                      <!-- mensaje -->
+                      <p class="mt-2">Mensaje</p>
+                      <label for="mensaje"></label>
+                      <textarea name="mensaje" id="mensaje" cols="50" rows="5" placeholder="Mensaje" required></textarea>
+                    <br>
+                      <input type="submit" value="enviar" class="btn-small justify-content-end">
+
+                    </form>
+                  </div>
+            </div>
+            <div class="col-2">
+
+            </div>
+          </div>
+
+      </div>
+      <!-- End form -->
 
       <div class="card text-center">
         <div class="card-header">
